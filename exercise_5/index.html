@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise5</title>
+     <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+    <p class="date">29.4.2025</p>
+  </head>
+  <body>
+
+    <header> 
+      <img src="src/img/Pokédex_logo.png" alt="Pokedex_logo" class="logo">
+    </header>
+
+    <section class="filters">
+      <div class="filter">
+        <label for="types">Type:</label>
+        <select id="types">
+          <option selected disabled>Select Types</option>
+            <option>All</option>
+            <option>Normal</option>
+            <option>Fire</option>
+            <option>Water</option>
+            <option>Electric</option>
+            <option>Grass</option>
+            <option>Fighting</option>
+            <option>Poison</option>
+            <option>Flying</option>
+            <option>Psychic</option>
+            <option>Bug</option>
+            <option>Ghost</option>
+            <option>Dragon</option>
+            <option>Dark</option>
+            <option>Steel</option>
+        </select>
+      </div>
+
+      <div class="filter">
+        <label for="captured">Captured:</label>
+        <select id="captured">
+          <option selected disabled>Select Captured</option>
+          <option>Any</option>
+          <option>Captured</option>
+          <option>Not Captured</option>
+        </select>
+      </div>
+    </section>
+
+    <main class="pokemon_grid">
+      <div class="pokemon_card">
+        <p class="pokemon_number">0006</p>
+        <img src="src/img/Charizard.png" alt="Charizard">
+        <h2>Charizard</h2>
+        <p>Fire/Flying</p>
+        <label class="toggle"><input type="checkbox" checked>Captured</label>
+      </div>
+
+      <div class="pokemon_card">
+        <p class="pokemon_number">0133</p>
+        <img src="src/img/eevee.png" alt="Eevee">
+        <h2>Eevee</h2>
+        <p>Normal</p>
+        <label class="toggle"><input type="checkbox" checked>Captured</label>
+      </div>
+
+      <div class="pokemon_card">
+        <p class="pokemon_number">0094</p>
+        <img src="src/img/Gengar.png" alt="Gengar">
+        <h2>Gengar</h2>
+        <p>Ghost/Posion</p>
+        <label class="toggle"><input type="checkbox" checked>Captured</label>
+      </div>
+
+      <div class="pokemon_card">
+        <p class="pokemon_number">0658</p>
+        <img src="src/img/Greninja.png" alt="Greninja">
+        <h2>Greninja</h2>
+        <p>Water/Dark</p>
+        <label class="toggle"><input type="checkbox" checked>Captured</label>
+      </div>
+
+      <div class="pokemon_card">
+        <p class="pokemon_number">0448</p>
+        <img src="src/img/Lucario.png" alt="Lucario">
+        <h2>Lucario</h2>
+        <p>Fighting/Steel</p>
+        <label class="toggle"><input type="checkbox" checked>Captured</label>
+      </div>
+
+      <div class="pokemon_card">
+        <p class="pokemon_number">0376</p>
+        <img src="src/img/Metagross.png" alt="Metagross">
+        <h2>Metagross</h2>
+        <p>Steel/Psychic</p>
+        <label class="toggle"><input type="checkbox" checked>Captured</label>
+      </div>
+
+      <div class="pokemon_card">
+        <p class="pokemon_number">0025</p>
+        <img src="src/img/Pikachu.png" alt="Pikachu">
+        <h2>Pikachu</h2>
+        <p>Electric</p>
+        <label class="toggle"><input type="checkbox" checked>Captured</label>
+      </div>
+
+      <div class="pokemon_card">
+        <p class="pokemon_number">0384</p>
+        <img src="src/img/Rayquaza.png" alt="Rayquaza">
+        <h2>Rayquaza</h2>
+        <p>Dragon/Flying</p>
+        <label class="toggle"><input type="checkbox" checked>Captured</label>
+      </div>
+
+      <div class="pokemon_card">
+        <p class="pokemon_number">0212</p>
+        <img src="src/img/Scizor.png" alt="Scizor">
+        <h2>Scizor</h2>
+        <p>Bug/Steel</p>
+        <label class="toggle"><input type="checkbox" checked>Captured</label>
+      </div>
+
+      <div class="pokemon_card">
+        <p class="pokemon_number">0252</p>
+        <img src="src/img/Treecko.png" alt="Treecko">
+        <h2>Treecko</h2>
+        <p>Grass</p>
+        <label class="toggle"><input type="checkbox" checked>Captured</label>
+      </div>
+    </main>
+  </body>
+</html>
